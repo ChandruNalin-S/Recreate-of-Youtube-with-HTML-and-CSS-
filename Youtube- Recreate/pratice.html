@@ -1,0 +1,72 @@
+<style>
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    p{
+        margin: 0 0;
+        font-size: 16px;
+        font-family: roboto,arial;
+        color: rgb(132, 129, 129);
+    }
+
+    .discord{
+        display: flex;
+        flex-direction: row;
+        align-items: top;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        top: 0;
+    }
+
+    .picture-container{
+        background-color: rgb(32, 31, 31);
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-bottom: 10px;
+        padding-right: 10px;
+    }
+    img{
+        border-radius: 30px;
+        height: 50px;
+        width: 50px;
+        margin-bottom: 10px;
+    }
+
+    .sidebar-1{
+        width: 200px;
+        line-height: 30px;
+        padding: 10px;
+        background-color: rgb(55, 55, 55);
+    }
+    .first-info{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+</style>
+
+<div class="discord">
+    <div class="picture-container">
+        <div class="picture">
+            <img src="channel-picture/channel-1.jpeg">
+        </div>
+        <div class="picture">
+            <img src="channel-picture/channel-2.jpeg">
+        </div>
+        <div class="picture">
+            <img src="channel-picture/channel-3.jpeg">
+        </div>
+    </div>
+    <div class="sidebar-1">
+        <div class="first-info">
+            <p style="color: white;">INFO</p>
+            <p style="font-size: 25px;">+</p>
+        </div>
+        <p># new-videos</p>
+        <p># updates</p>
+        <p># faq</p>
+    </div>
+</div>

@@ -1,0 +1,251 @@
+<style>
+    p{
+        margin: 0;
+        padding: 0;
+    }
+    .thanks{
+        width: 305px;
+        font-size: 20px;
+        display: inline-block;
+        vertical-align: middle;
+        border: 1px solid black;
+        margin-bottom: 10px;
+    }
+
+    .google{
+        display: block;
+        width: 30%;
+        margin-left: 150px;
+        margin-bottom: 10px;
+    }
+
+    .input{
+        display: block;
+        width: 70%;
+        padding: 10px;
+        border-radius: 20px;
+        border: none;
+        font-size: 18px;
+        box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
+        margin-bottom: 200px;
+
+    }
+    .first_name{
+        display: inline-block;
+        width: 30%;
+        font-size: 25px;
+        border-radius: 5px;
+        border: 1px solid rgb(200, 200, 200);
+    }
+    .last_name{
+        width: 30%;
+        font-size: 25px;
+        border-radius: 5px;
+        border:1px solid rgb(200, 200, 200);
+    }
+    .email{
+        margin-top: 10px;
+        display: block;
+        width: 60%;
+        font-size: 20px;
+        font-size: 25px;
+        border-radius: 5px;
+        border:1px solid rgb(200, 200, 200);
+    }
+    .sign_up{
+        display: block;
+        margin-top: 10px;
+        color: white;
+        font-size: 18px;
+        width: 60%;
+        font-weight: bold;
+        padding: 18px;
+        background-color: rgb(66, 66, 201);
+        border: none;
+        border-radius: 10px;
+    }
+    .service{
+        margin-top: 10px;
+        width: 300px;
+        display: inline-block;
+        padding: 10px;
+        line-height: 30px;
+        font-size: 15px;
+        font-family: arial;
+        font-weight: bold;
+        box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    }
+    .service1{
+        display: inline-block;
+        width: 300px;
+        padding: 20px;
+        background-color: rgb(33, 31, 31);
+        color: rgb(88, 85, 85);
+        font-family: arial;
+    }
+    .card{
+        display: inline-block;
+        width: 450px;
+        padding: 10px;
+        box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    }
+    .text-box{
+        font-size: 18px;
+        vertical-align: middle;
+        width: 270px;
+        vertical-align: middle;
+        border: none;
+    }
+    .profile{
+        border-radius: 39px;
+        width: 18%;
+        vertical-align: middle;
+        object-fit: cover;
+        object-position: center;
+        margin-left: 5px;
+    }
+    .tweet{
+        color:white;
+        width: 75px;
+        background-color: rgb(0, 166, 255);
+        border: none;
+        padding: 8px;
+        border-radius: 18px;
+        font-size: 18px;
+        font-weight: bold;
+    }
+</style>
+<p class="thanks">Thanks for chatting with
+    our customer support.would you like
+    to take our quick survey? 
+</p>
+<button>Yes</button>
+<button>No</button>
+<img class="google" src="thumbnails/google logo.png">
+<input class="input" type="text" placeholder="Search Google or type a URL">
+<input class="first_name" type="text" placeholder="First name">
+<input class="last_name"type="text" placeholder="Last name">
+<input class="email" type="email" placeholder="Email">
+<button class="sign_up">Sign Up</button>
+
+<div class="service">
+    <p>Satisfied with our service?</p>
+    <button>Yes</button>
+    <button>NO</button>
+</div>
+
+<div class="service1">
+    <p style="font-size: 18px;font-weight: bold;color: white;">Install Youtube Music</p>
+    <p style="margin-top: 10px;">Add Youtube Music to your desktop for quick and
+        easy access
+    </p>
+</div>
+
+<div class="card">
+    <img class="profile" src="thumbnails/cat.jpeg" >
+    <input class="text-box" type="text" placeholder="What happening?">
+    <button class="tweet">Tweet</button>
+</div>
+
+<style>
+    .nested-layout{
+        margin-top: 10px;
+        display: block;
+        width: 100%;
+        border-radius: 5px;
+    }
+
+    .thumbnail{
+        display: inline-block;
+        width: 90px;
+        vertical-align: middle;
+    }
+    .cat-profile{
+        width: 70px;
+        border-radius: 30px;
+        text-align: center;
+    }
+
+    .video-content{
+        display: inline-block;
+        font-size: 18px;
+        font-family: Arial;
+        width: 100px;
+        vertical-align: middle;
+        line-height: 25px;
+    }
+
+    .the-cat,.popular{
+        color: rgb(155, 150, 150);
+    }
+
+    .follow{
+        font-size: 18px;
+        font-family: arial;
+        font-weight: bold;
+        color: white;
+        background-color: rgb(62, 133, 247);
+        padding: 10px;
+        border-radius: 5px;
+        border: none;
+        margin-left: 70px;
+        vertical-align: middle;
+    }
+</style>
+<div class="nested-layout">
+    <div class="thumbnail">
+        <img class="cat-profile" src="pratice-image/unnamed.png">
+    </div>
+    <div class="video-content">
+        <p style="font-weight: bold;">Oliver</p>
+        <p class="the-cat">the cat</p>
+        <p class="popular">Popular</p>
+    </div>
+    <button class="follow">Follow</button>
+</div>
+
+<style>
+    .three-row{
+        box-shadow:0 3px 10px rgb(0 0 0 / 0.2);
+        width: 400px;
+        padding: 10px;
+        margin-top: 200px;
+    }
+</style>
+<div class="three-row">
+    <div class="nested-layout">
+        <div class="thumbnail">
+            <img class="cat-profile" src="pratice-image/unnamed.png">
+        </div>
+        <div class="video-content">
+            <p style="font-weight: bold;">Oliver</p>
+            <p class="the-cat">the cat</p>
+            <p class="popular">Popular</p>
+        </div>
+        <button class="follow">Follow</button>
+    </div>
+    
+    <div class="nested-layout">
+        <div class="thumbnail">
+            <img class="cat-profile" src="pratice-image/unnamed.png">
+        </div>
+        <div class="video-content">
+            <p style="font-weight: bold;">Oliver</p>
+            <p class="the-cat">the cat</p>
+            <p class="popular">Popular</p>
+        </div>
+        <button class="follow">Follow</button>
+    </div>
+    
+    <div class="nested-layout">
+        <div class="thumbnail">
+            <img class="cat-profile" src="pratice-image/unnamed.png">
+        </div>
+        <div class="video-content">
+            <p style="font-weight: bold;">Oliver</p>
+            <p class="the-cat">the cat</p>
+            <p class="popular">Popular</p>
+        </div>
+        <button class="follow">Follow</button>
+    </div>
+</div>

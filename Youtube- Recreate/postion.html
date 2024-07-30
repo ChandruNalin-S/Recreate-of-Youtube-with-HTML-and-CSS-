@@ -1,0 +1,143 @@
+<body style="padding-top: 60px;
+        padding-left: 100px;">
+    <div style="background-color: black;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    z-index: 100;
+    ">header</div>
+
+    <div style="background-color: green;
+           color:white;
+           position: fixed;
+           left: 0;
+           bottom: 0;
+           top: 50;
+           width: 72px;">
+        sidebar
+        <div style="position: absolute;
+        background-color: red;
+        color: white;
+        top:0;
+        right: 0;">X</div>
+    </div>
+        
+        <div style="position: absolute;
+        background-color: red;
+        color: white;
+        top:60px;
+        right: 0;">absolute</div>
+    <div style="
+    background-color: lightblue;
+    height: 200px;
+    width: 200px;
+    ">
+    div 1</div>
+<div style=
+    "background-color: lightpink;
+    height:200px;   
+    width: 200px;
+    position: relative;
+    ">
+    div2
+    <div style="position: absolute;
+    background-color: rgb(10, 9, 9);
+    color: white;
+    bottom: 0;
+    right: 1;">14:20</div>
+    </div>
+
+
+    <style>
+        .video-container{
+            width: 280px;
+            height: 200px;
+            background-color: gray;
+            margin-top: 100px;
+            position: relative;
+        }
+
+        .video-close{
+            position: absolute;
+            padding:10px 14px 10px 14px;
+            background-color: black;
+            color: white;
+            font-size: 17px;
+            border-radius: 20px;
+            border: none;
+            top: -16px;
+            left: -12px;
+        }
+
+        .video-timer{
+            position: absolute;
+            background-color: black;
+            color: white;
+            padding: 2px 5px 2px 5px;
+            font-size: 14px;
+            font-family: roboto,arial;
+            font-weight: 500;
+            bottom: 7px;
+            right: 8px;
+        }
+    </style>
+    <div class="video-container">
+        <button class="video-close">X</button>
+        <div class="video-timer">0:29</div>
+    </div>
+
+
+    <style>
+        .cart{
+            margin-top: 100px;
+            width: 200px;
+            height: 200px;
+            border: 1px solid black;
+            position: relative;
+            margin-bottom: 100px;
+        }
+        .shirt{
+            width: 100%;
+        }
+        .offer{
+            position: absolute;
+            top: 6px;
+            right: 0px;
+            background-color: black;
+            color: white;
+            padding: 4px 8px 4px 8px;
+            font-size: 12px;
+            font-family: roboto,arial;
+        }
+
+        .add{
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color:rgba(230, 225, 225, 0.8);
+        }
+        .buy{
+            width: 50%;
+            height: 40px;
+            font-size: 12px;
+            font-family: roboto,arial;
+            font-weight: 500;
+            border: 1px soild black;
+        }
+    </style>
+    <div class="cart">
+        <img class="shirt" src="shirt.webp">
+        <div class="offer">20% OFF</div>
+        <div class="add">
+            <button class="buy">Add to Cart</button>
+        </div>
+    </div>
+</body>
